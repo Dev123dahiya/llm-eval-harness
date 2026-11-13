@@ -1,0 +1,80 @@
+{"id": "case-000", "input": "Invoice INV-3967 from Orbit Freight totals €115.", "tags": ["plain"], "expected": {"invoice_id": "INV-3967", "amount": 115, "currency": "EUR"}}
+{"id": "case-001", "input": "Invoice INV-7945 from Acme Ltd totals $24,619.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-7945", "amount": 24619, "currency": "USD"}}
+{"id": "case-002", "input": "Blue Kite Studio billed 145,022 pounds on invoice INV-424.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-424", "amount": 145022, "currency": "GBP"}}
+{"id": "case-003", "input": "Invoice INV-1064: 25 items from Sagar Traders, net 47 days, total $137,403.", "tags": ["distractor"], "expected": {"invoice_id": "INV-1064", "amount": 137403, "currency": "USD"}}
+{"id": "case-004", "input": "Invoice INV-2928 from Northgrid Power totals 278 ₹.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-2928", "amount": 278, "currency": "INR"}}
+{"id": "case-005", "input": "Invoice INV-520 from Blue Kite Studio totals €829.", "tags": ["plain"], "expected": {"invoice_id": "INV-520", "amount": 829, "currency": "EUR"}}
+{"id": "case-006", "input": "Invoice INV-3269 from Blue Kite Studio totals $82,225.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-3269", "amount": 82225, "currency": "USD"}}
+{"id": "case-007", "input": "Sagar Traders billed 222,456 rupees on invoice INV-6201.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-6201", "amount": 222456, "currency": "INR"}}
+{"id": "case-008", "input": "Invoice INV-5628: 13 items from Northgrid Power, net 45 days, total £133,632.", "tags": ["distractor"], "expected": {"invoice_id": "INV-5628", "amount": 133632, "currency": "GBP"}}
+{"id": "case-009", "input": "Invoice INV-7859 from Sagar Traders totals 101 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-7859", "amount": 101, "currency": "EUR"}}
+{"id": "case-010", "input": "Invoice INV-5019 from Blue Kite Studio totals ₹940.", "tags": ["plain"], "expected": {"invoice_id": "INV-5019", "amount": 940, "currency": "INR"}}
+{"id": "case-011", "input": "Invoice INV-9477 from Sagar Traders totals €223,309.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-9477", "amount": 223309, "currency": "EUR"}}
+{"id": "case-012", "input": "Sagar Traders billed 112,078 pounds on invoice INV-3296.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-3296", "amount": 112078, "currency": "GBP"}}
+{"id": "case-013", "input": "Invoice INV-4821: 16 items from Northgrid Power, net 49 days, total £119,324.", "tags": ["distractor"], "expected": {"invoice_id": "INV-4821", "amount": 119324, "currency": "GBP"}}
+{"id": "case-014", "input": "Invoice INV-4354 from Acme Ltd totals 93 ₹.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-4354", "amount": 93, "currency": "INR"}}
+{"id": "case-015", "input": "Invoice INV-7680 from Sagar Traders totals €541.", "tags": ["plain"], "expected": {"invoice_id": "INV-7680", "amount": 541, "currency": "EUR"}}
+{"id": "case-016", "input": "Invoice INV-7820 from Northgrid Power totals €39,027.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-7820", "amount": 39027, "currency": "EUR"}}
+{"id": "case-017", "input": "Northgrid Power billed 240,476 pounds on invoice INV-1188.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-1188", "amount": 240476, "currency": "GBP"}}
+{"id": "case-018", "input": "Invoice INV-7327: 29 items from Blue Kite Studio, net 77 days, total €49,156.", "tags": ["distractor"], "expected": {"invoice_id": "INV-7327", "amount": 49156, "currency": "EUR"}}
+{"id": "case-019", "input": "Invoice INV-9746 from Sagar Traders totals 659 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-9746", "amount": 659, "currency": "EUR"}}
+{"id": "case-020", "input": "Invoice INV-3355 from Acme Ltd totals €113.", "tags": ["plain"], "expected": {"invoice_id": "INV-3355", "amount": 113, "currency": "EUR"}}
+{"id": "case-021", "input": "Invoice INV-3849 from Sagar Traders totals €201,582.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-3849", "amount": 201582, "currency": "EUR"}}
+{"id": "case-022", "input": "Northgrid Power billed 87,787 rupees on invoice INV-3989.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-3989", "amount": 87787, "currency": "INR"}}
+{"id": "case-023", "input": "Invoice INV-4866: 24 items from Acme Ltd, net 74 days, total £7,730.", "tags": ["distractor"], "expected": {"invoice_id": "INV-4866", "amount": 7730, "currency": "GBP"}}
+{"id": "case-024", "input": "Invoice INV-1453 from Blue Kite Studio totals 762 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-1453", "amount": 762, "currency": "EUR"}}
+{"id": "case-025", "input": "Invoice INV-397 from Blue Kite Studio totals €305.", "tags": ["plain"], "expected": {"invoice_id": "INV-397", "amount": 305, "currency": "EUR"}}
+{"id": "case-026", "input": "Invoice INV-2605 from Sagar Traders totals £226,803.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-2605", "amount": 226803, "currency": "GBP"}}
+{"id": "case-027", "input": "Northgrid Power billed 162,934 euros on invoice INV-1373.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-1373", "amount": 162934, "currency": "EUR"}}
+{"id": "case-028", "input": "Invoice INV-7376: 26 items from Blue Kite Studio, net 68 days, total €36,766.", "tags": ["distractor"], "expected": {"invoice_id": "INV-7376", "amount": 36766, "currency": "EUR"}}
+{"id": "case-029", "input": "Invoice INV-2703 from Acme Ltd totals 596 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-2703", "amount": 596, "currency": "EUR"}}
+{"id": "case-030", "input": "Invoice INV-6052 from Northgrid Power totals ₹475.", "tags": ["plain"], "expected": {"invoice_id": "INV-6052", "amount": 475, "currency": "INR"}}
+{"id": "case-031", "input": "Invoice INV-6083 from Sagar Traders totals €77,109.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-6083", "amount": 77109, "currency": "EUR"}}
+{"id": "case-032", "input": "Orbit Freight billed 55,325 pounds on invoice INV-1690.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-1690", "amount": 55325, "currency": "GBP"}}
+{"id": "case-033", "input": "Invoice INV-3506: 5 items from Acme Ltd, net 77 days, total ₹16,555.", "tags": ["distractor"], "expected": {"invoice_id": "INV-3506", "amount": 16555, "currency": "INR"}}
+{"id": "case-034", "input": "Invoice INV-2863 from Acme Ltd totals 631 $.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-2863", "amount": 631, "currency": "USD"}}
+{"id": "case-035", "input": "Invoice INV-9049 from Northgrid Power totals £606.", "tags": ["plain"], "expected": {"invoice_id": "INV-9049", "amount": 606, "currency": "GBP"}}
+{"id": "case-036", "input": "Invoice INV-5366 from Sagar Traders totals ₹33,053.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-5366", "amount": 33053, "currency": "INR"}}
+{"id": "case-037", "input": "Northgrid Power billed 171,816 pounds on invoice INV-4898.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-4898", "amount": 171816, "currency": "GBP"}}
+{"id": "case-038", "input": "Invoice INV-7927: 28 items from Orbit Freight, net 61 days, total $64,402.", "tags": ["distractor"], "expected": {"invoice_id": "INV-7927", "amount": 64402, "currency": "USD"}}
+{"id": "case-039", "input": "Invoice INV-704 from Orbit Freight totals 441 $.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-704", "amount": 441, "currency": "USD"}}
+{"id": "case-040", "input": "Invoice INV-4172 from Northgrid Power totals £860.", "tags": ["plain"], "expected": {"invoice_id": "INV-4172", "amount": 860, "currency": "GBP"}}
+{"id": "case-041", "input": "Invoice INV-8268 from Acme Ltd totals $9,296.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-8268", "amount": 9296, "currency": "USD"}}
+{"id": "case-042", "input": "Sagar Traders billed 64,540 euros on invoice INV-4267.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-4267", "amount": 64540, "currency": "EUR"}}
+{"id": "case-043", "input": "Invoice INV-3508: 11 items from Blue Kite Studio, net 50 days, total $110,349.", "tags": ["distractor"], "expected": {"invoice_id": "INV-3508", "amount": 110349, "currency": "USD"}}
+{"id": "case-044", "input": "Invoice INV-940 from Acme Ltd totals 588 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-940", "amount": 588, "currency": "EUR"}}
+{"id": "case-045", "input": "Invoice INV-9434 from Acme Ltd totals £995.", "tags": ["plain"], "expected": {"invoice_id": "INV-9434", "amount": 995, "currency": "GBP"}}
+{"id": "case-046", "input": "Invoice INV-8198 from Orbit Freight totals £25,355.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-8198", "amount": 25355, "currency": "GBP"}}
+{"id": "case-047", "input": "Blue Kite Studio billed 89,234 dollars on invoice INV-3555.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-3555", "amount": 89234, "currency": "USD"}}
+{"id": "case-048", "input": "Invoice INV-7820: 35 items from Orbit Freight, net 43 days, total €214,601.", "tags": ["distractor"], "expected": {"invoice_id": "INV-7820", "amount": 214601, "currency": "EUR"}}
+{"id": "case-049", "input": "Invoice INV-4495 from Orbit Freight totals 954 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-4495", "amount": 954, "currency": "EUR"}}
+{"id": "case-050", "input": "Invoice INV-8232 from Blue Kite Studio totals ₹889.", "tags": ["plain"], "expected": {"invoice_id": "INV-8232", "amount": 889, "currency": "INR"}}
+{"id": "case-051", "input": "Invoice INV-3233 from Sagar Traders totals ₹104,494.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-3233", "amount": 104494, "currency": "INR"}}
+{"id": "case-052", "input": "Acme Ltd billed 175,899 euros on invoice INV-2191.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-2191", "amount": 175899, "currency": "EUR"}}
+{"id": "case-053", "input": "Invoice INV-2840: 27 items from Orbit Freight, net 89 days, total £150,213.", "tags": ["distractor"], "expected": {"invoice_id": "INV-2840", "amount": 150213, "currency": "GBP"}}
+{"id": "case-054", "input": "Invoice INV-6497 from Acme Ltd totals 827 $.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-6497", "amount": 827, "currency": "USD"}}
+{"id": "case-055", "input": "Invoice INV-3560 from Sagar Traders totals $23.", "tags": ["plain"], "expected": {"invoice_id": "INV-3560", "amount": 23, "currency": "USD"}}
+{"id": "case-056", "input": "Invoice INV-4316 from Orbit Freight totals ₹104,752.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-4316", "amount": 104752, "currency": "INR"}}
+{"id": "case-057", "input": "Northgrid Power billed 231,347 rupees on invoice INV-3742.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-3742", "amount": 231347, "currency": "INR"}}
+{"id": "case-058", "input": "Invoice INV-2752: 32 items from Sagar Traders, net 88 days, total €215,546.", "tags": ["distractor"], "expected": {"invoice_id": "INV-2752", "amount": 215546, "currency": "EUR"}}
+{"id": "case-059", "input": "Invoice INV-8724 from Acme Ltd totals 37 £.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-8724", "amount": 37, "currency": "GBP"}}
+{"id": "case-060", "input": "Invoice INV-660 from Sagar Traders totals ₹510.", "tags": ["plain"], "expected": {"invoice_id": "INV-660", "amount": 510, "currency": "INR"}}
+{"id": "case-061", "input": "Invoice INV-4309 from Blue Kite Studio totals $11,846.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-4309", "amount": 11846, "currency": "USD"}}
+{"id": "case-062", "input": "Blue Kite Studio billed 78,840 rupees on invoice INV-1405.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-1405", "amount": 78840, "currency": "INR"}}
+{"id": "case-063", "input": "Invoice INV-1324: 26 items from Orbit Freight, net 43 days, total ₹143,443.", "tags": ["distractor"], "expected": {"invoice_id": "INV-1324", "amount": 143443, "currency": "INR"}}
+{"id": "case-064", "input": "Invoice INV-5198 from Orbit Freight totals 249 £.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-5198", "amount": 249, "currency": "GBP"}}
+{"id": "case-065", "input": "Invoice INV-6654 from Acme Ltd totals ₹89.", "tags": ["plain"], "expected": {"invoice_id": "INV-6654", "amount": 89, "currency": "INR"}}
+{"id": "case-066", "input": "Invoice INV-6094 from Orbit Freight totals £110,023.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-6094", "amount": 110023, "currency": "GBP"}}
+{"id": "case-067", "input": "Blue Kite Studio billed 167,969 dollars on invoice INV-1196.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-1196", "amount": 167969, "currency": "USD"}}
+{"id": "case-068", "input": "Invoice INV-7942: 12 items from Sagar Traders, net 53 days, total £31,978.", "tags": ["distractor"], "expected": {"invoice_id": "INV-7942", "amount": 31978, "currency": "GBP"}}
+{"id": "case-069", "input": "Invoice INV-2767 from Northgrid Power totals 733 $.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-2767", "amount": 733, "currency": "USD"}}
+{"id": "case-070", "input": "Invoice INV-5450 from Blue Kite Studio totals £890.", "tags": ["plain"], "expected": {"invoice_id": "INV-5450", "amount": 890, "currency": "GBP"}}
+{"id": "case-071", "input": "Invoice INV-4337 from Northgrid Power totals ₹187,256.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-4337", "amount": 187256, "currency": "INR"}}
+{"id": "case-072", "input": "Sagar Traders billed 32,707 euros on invoice INV-191.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-191", "amount": 32707, "currency": "EUR"}}
+{"id": "case-073", "input": "Invoice INV-1915: 32 items from Sagar Traders, net 63 days, total £207,102.", "tags": ["distractor"], "expected": {"invoice_id": "INV-1915", "amount": 207102, "currency": "GBP"}}
+{"id": "case-074", "input": "Invoice INV-1340 from Blue Kite Studio totals 431 $.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-1340", "amount": 431, "currency": "USD"}}
+{"id": "case-075", "input": "Invoice INV-5945 from Northgrid Power totals $795.", "tags": ["plain"], "expected": {"invoice_id": "INV-5945", "amount": 795, "currency": "USD"}}
+{"id": "case-076", "input": "Invoice INV-127 from Blue Kite Studio totals ₹160,785.00, payable on receipt.", "tags": ["separators"], "expected": {"invoice_id": "INV-127", "amount": 160785, "currency": "INR"}}
+{"id": "case-077", "input": "Sagar Traders billed 206,115 pounds on invoice INV-9014.", "tags": ["currency_word"], "expected": {"invoice_id": "INV-9014", "amount": 206115, "currency": "GBP"}}
+{"id": "case-078", "input": "Invoice INV-5107: 30 items from Sagar Traders, net 55 days, total £161,694.", "tags": ["distractor"], "expected": {"invoice_id": "INV-5107", "amount": 161694, "currency": "GBP"}}
+{"id": "case-079", "input": "Invoice INV-2404 from Sagar Traders totals 799 €.", "tags": ["symbol_after"], "expected": {"invoice_id": "INV-2404", "amount": 799, "currency": "EUR"}}
